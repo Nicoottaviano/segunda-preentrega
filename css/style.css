@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{   
+    background-color: lightyellow;
+    background-image: linear-gradient(to top, black, blue 60%, rgb(107, 168, 221));
+}
+
+header{
+    height: 100px;
+}
+#icon-menu{
+    display: none;
+}
+.container-header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: orangered;
+    margin-bottom: 75px;
+}
+.logo{
+    cursor: pointer;
+
+}
+
+.container-header{
+    max-width: 1200px;
+    height: 100px;
+    padding: 40px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 200px;
+    margin-top: 150px;
+}
+
+.menu nav ul{
+    display: flex;
+}
+.menu nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+.menu nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.boton-header-buscar{
+    padding: 14px 50px;
+    background-color: black;
+    border: none;
+    color: yellowgreen;
+    cursor: pointer;
+    transition:background, color, 300ms;  
+
+}
+
+.boton-header-buscar:hover{
+    background: lightcoral;
+    color: blue;
+}
+
+
+/* portada - main */
+
+.main{
+    max-width: 1200px;
+    height: calc(100vh + 30vw);
+    padding: 20px;
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+
+.text-informacion-main{
+    width: 50%;
+}
+.text-informacion-main h1{
+    font-size: 50px;
+
+}
+.text-informacion-main p{
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.boton-main{
+    display: flex;
+    margin-top: 25px;
+}
+
+
+.media-main img{
+    width: 100%;
+    margin-top: -40px;
+    border-radius: 15px;
+}
+.boton-registro-main{
+    padding: 14px 50px;
+    background-color: black;
+    border: none;
+    color: yellowgreen;
+    cursor: pointer;
+    transition:background, color, 300ms; 
+}
+
+.boton-leer-mas-main{
+    padding: 14px 50px;
+    background-color: black;
+    border: none;
+    color: yellowgreen;
+    cursor: pointer;
+    transition:background, color, 300ms; 
+    margin-left: 5px;
+}
+.boton-leer-mas-main:hover{
+    background: lightcoral;
+    color: blue;
+}
+
+.boton-registro-main:hover{
+    background: lightcoral;
+    color: blue;
+}
+.container-banner{
+    margin-top: -300px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 85px;
+    border: solid 3px yellow;
+}
+.container-banner:hover{
+    transform: scale(1.05);
+    
+}
+
+.banner{
+    cursor: pointer;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background-color: greenyellow;
+    color: white;
+}
+.banner-text{
+    font-size: 15px;
+}
+
+.banner-icon-paleta{
+    width: 45%;
+    height: 100;
+}
+#icon-paleta{
+    width: 200px;
+    margin-left: 90px;
+}
+.spotify{
+    margin: 10px 10px 10px 10px;
+}
+
+
+/* footer */
+
+
+.redes-footer{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.redes-footer ul li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-left: 25px;
+}
+
+.copyrigth{
+    color: blueviolet;
+}
+/*  SUCURSALES */
+
+.container-flex-sucursales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.container-flex-sucursales p{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.container-flex-sucursales img{
+    border-radius: 10px;
+    border: solid orange;
+}
+
+section{
+    margin-top: 120px;
+}
+
+.sedes-titulo{
+    display: grid;
+    margin-top: 170px;
+    justify-content: center;
+    color: orange;
+}
+.sede-1{
+    margin-bottom: 75px;
+    display: grid;
+    align-items: center;
+
+}
+.sede-3{
+    margin-bottom: 45px;
+}
+
+/*  CONTACTO */
+
+.container-form{
+    margin-top: 100px;
+    margin-left: 245px;
+    margin-right: 245px;
+    padding: 15px 15px 45px 45px;
+    display: flex;
+    justify-content: center;
+    border: solid red;
+    border-radius: 10px;
+}
+.form-titulo{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+.formulario p{
+    font-size: 25px;
+    color: orange;
+}
+/* BLOG */
+
+.parrafo-blog{
+    margin-top: 100px;
+}
+.blog{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+.parrafo-blog p{
+    color: aliceblue;
+}
+.video-blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+.video-blog img{
+    width: 400px;
+    border-radius: 15px;
+}
+
+/* PRODUCTOS */
+
+.container-grid-productos{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+}
+.container-grid-productos img{
+    border-radius: 10px;
+    border: solid orange;
+}
+.container-grid-productos img:hover{
+    scale: 1.05;
+}
+
+.container-grid-productos p{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* -------RESPONSIVE INDEX------ */
+
+@media (max-width: 420px){
+
+    .container-header,
+    main{
+        padding: 10px;
+    }
+    #icon-menu{
+        display: none
+    }
+    .header-buscar{
+        display: none;
+    }
+    .menu nav ul{
+        padding: 20px 0px;
+        flex-direction: column;
+        color: white;
+    }
+    .menu nav ul li{
+        padding: 10px 40px;
+    }
+    .menu{
+        margin-left: 200px;
+        margin-top: 200px;
+        overflow: hidden;
+        z-index: 110;
+    } 
+    .text-informacion-main p{
+        display: none;
+        
+    }
+    .container-banner{
+        margin-top: -60px;
+        margin-left: 1px;
+        margin-right: 1px;
+        
+    }
+    .spotify{
+        max-width: 100%;
+        margin-right: -445px;
+    }
+    .banner-icon-paleta{
+        display: none;
+    }
+    .banner-text{
+        font-size: 10px;
+        margin: 5px;
+    }
+    .container-banner{
+        justify-content: center;
+    }
+    .logo img{
+        width:75px;
+    }
+    .text-informacion-main h1{
+        font-size: 25px;
+        width: 45px;
+    }
+    .boton-main{
+        display: none;
+    }
+    .text-informacion-main{
+        display: grid;
+        justify-content: start;
+        margin-top: -40px;
+    }
+
+}   
+
+
+
+
+
+    
+    
