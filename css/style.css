@@ -10,8 +10,10 @@ body{
     background-image: linear-gradient(to top, black, blue 60%, rgb(107, 168, 221));
 }
 
+/* ----HEADER INDEX */
+
 header{
-    height: 100px;
+    height: 100%;
 }
 #icon-menu{
     display: none;
@@ -28,15 +30,10 @@ header{
 
 }
 
-.container-header{
-    max-width: 1200px;
-    height: 250px;
-    padding: 40px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
+
+.container-fluid img{
+    width: 45px;
 }
 
 .logo img{
@@ -56,16 +53,20 @@ header{
     text-decoration: none;
 
 }
-.navbar-nav li a{
-    color: black
+.navbar{
+    background-color: lightblue;
 }
 
 .navbar-nav li a:hover{
     color: red;
-    transform: scale(1.1);
     transform: translate(145deg, 45deg);
     transform: rotatez(4deg);
 }
+
+.dropdown-menu{
+    background-color: lightblue;
+}
+
 
 .boton-header-buscar{
     padding: 14px 50px;
@@ -86,7 +87,7 @@ header{
 /* portada - main */
 
 .main{
-    max-width: 1200px;
+    max-width: 100%;
     height: calc(90vh + 30vw);
     padding: 20px;
     padding-top: 100px;
@@ -95,10 +96,7 @@ header{
     justify-content: space-around;
     margin-top: 50px;
 }
-.container-fluid{
-    background-color: beige;
-    
-}
+
 
 
 .text-informacion-main{
@@ -107,7 +105,7 @@ header{
 }
 .text-informacion-main h1{
     font-size: 50px;
-    margin-top: 90px;
+    margin-top: 1px;
 
 }
 .text-informacion-main p{
@@ -262,7 +260,7 @@ section{
     border-radius: 10px;
 }
 .form-titulo{
-    margin-top: 170px;
+    margin-top: 120px;
     display: flex;
     justify-content: center;
     color: orange;
@@ -279,7 +277,7 @@ section{
     margin-right: 10px;
 }
 .blog{
-    margin-top: 170px;
+    margin-top: 120px;
     display: flex;
     justify-content: center;
     color: orange;
@@ -330,6 +328,7 @@ section{
     main{
         padding: 10px;
     }
+
     #icon-menu{
         display: none
     }
@@ -383,6 +382,7 @@ section{
     .text-informacion-main h1{
         font-size: 25px;
         width: 45px;
+        
     }
     .boton-main{
         display: none;
@@ -398,6 +398,7 @@ section{
    .main{
     display: flex;
     flex-direction: column;
+    margin-top: -45px;
     
    }
    .main h1{
