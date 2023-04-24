@@ -24,12 +24,13 @@ header{
 }
 .logo{
     cursor: pointer;
+    
 
 }
 
 .container-header{
     max-width: 1200px;
-    height: 100px;
+    height: 220px;
     padding: 40px;
     padding-top: 80px;
     display: flex;
@@ -55,6 +56,17 @@ header{
     text-decoration: none;
 
 }
+.navbar-nav li a{
+    color: black
+}
+
+.navbar-nav li a:hover{
+    color: red;
+    transform: scale(1.1);
+    transform: translate(145deg, 45deg);
+    transform: rotatez(4deg);
+}
+
 .boton-header-buscar{
     padding: 14px 50px;
     background-color: black;
@@ -87,6 +99,7 @@ header{
 
 .text-informacion-main{
     width: 50%;
+    margin-top:50px;
 }
 .text-informacion-main h1{
     font-size: 50px;
