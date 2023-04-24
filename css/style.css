@@ -30,7 +30,7 @@ header{
 
 .container-header{
     max-width: 1200px;
-    height: 220px;
+    height: 250px;
     padding: 40px;
     padding-top: 80px;
     display: flex;
@@ -99,7 +99,7 @@ header{
 
 .text-informacion-main{
     width: 50%;
-    margin-top:50px;
+    margin-top:250px;
 }
 .text-informacion-main h1{
     font-size: 50px;
