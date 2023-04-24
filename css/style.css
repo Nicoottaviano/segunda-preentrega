@@ -95,6 +95,10 @@ header{
     justify-content: space-around;
     margin-top: 50px;
 }
+.container-fluid{
+    background-color: beige;
+    
+}
 
 
 .text-informacion-main{
@@ -150,7 +154,7 @@ header{
     color: blue;
 }
 .container-banner{
-    margin-top: -300px;
+    margin-top: -180px;
     margin-left: 45px;
     margin-right: 45px;
     margin-bottom: 85px;
@@ -404,6 +408,20 @@ section{
    .media-main img{
     margin-top: 1px;
    }
+   /* ----- BLOG RESPONSIVE------- */
+
+   .parrafo-blog p{
+    margin-top: -75px;
+   }
+   .video-blog iframe{
+    width: 360px;
+   }
+   .video-blog img{
+    max-width: 360px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+   }
+
   
 
 }   

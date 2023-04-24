@@ -20,32 +20,42 @@
             <h1>Paddle Store</h1>
         </div>
             
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <nav class="navbar navbar-expand-md navbar-ligth bg-ligth border-3 border-bottom border-primary">
-                  <div class="container-fluid">
-                    <a href="#" class="navbar-brand">Menu</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menunavegacion">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div id="menunavegacion" class="collapse navbar-collapse">
-                      <ul class="navbar-nav ms-3">
-                        <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./secciones/blog.html">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./secciones/productos.html">Productos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./secciones/contacto.html">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./secciones/sucursales.html">Sucursales</a></li>
-                      </ul>
-
-                    </div>
-                  </div>
-
-                </nav>
+              <a class="navbar-brand" href="#">Menu</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./secciones/blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mostrar mas
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./secciones/contacto.html">Contacto</a></li>
+                      <li><a class="dropdown-item" href="./secciones/productos.html">Productos</a></li>
+                      
+                      <li><a class="dropdown-item" href="./secciones/sucursales.html">Sedes</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled"></a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="que estas buscando" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
             </div>
-            <i class="fa-solid fa-bars" id="icon-menu"></i>
-            <div class="header-buscar">
-              <input type="text" placeholder="que estas buscando">
-              <input type="button" class="boton-header-buscar" value="Buscar">
-          </div>
+          </nav>
         
         </div>
         
