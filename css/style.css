@@ -87,27 +87,28 @@ header{
 
 .main{
     max-width: 1200px;
-    height: calc(100vh + 30vw);
+    height: calc(90vh + 30vw);
     padding: 20px;
     padding-top: 100px;
     margin: auto;
     display: flex;
     justify-content: space-around;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 
 .text-informacion-main{
     width: 50%;
-    margin-top:250px;
+    
 }
 .text-informacion-main h1{
     font-size: 50px;
+    margin-top: 90px;
 
 }
 .text-informacion-main p{
     font-size: 18px;
-    margin-top: 25px;
+    
 }
 
 .boton-main{
@@ -346,6 +347,7 @@ section{
         overflow: hidden;
         z-index: 110;
     } 
+    
     .text-informacion-main p{
         display: none;
         
@@ -396,7 +398,7 @@ section{
    }
    .main h1{
     width: 380px;
-    margin-top: 150px;
+    margin-top: 210px;
    }
 
    .media-main img{
