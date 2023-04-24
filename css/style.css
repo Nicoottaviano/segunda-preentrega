@@ -422,7 +422,17 @@ section{
     margin-bottom: 45px;
    }
 
-  
+   /* ----SEDES RESPONSIVE */
+   .container-flex-sucursales img{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 370px;
+   }
+   .container-flex-sucursales img:hover{
+    transform: scale(1.04);
+   }
+
+
 
 }   
 
