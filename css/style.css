@@ -6,28 +6,34 @@
 }
 
 body{   
-    background-color: lightyellow;
-    background-image: linear-gradient(to top, black, blue 60%, rgb(107, 168, 221));
+    background-image: url(/imagenes/fondopelotita2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
 }
 
 /* ----HEADER INDEX */
 
-header{
+header {
     height: 100%;
+    position: sticky;
+    top: 0;
+
 }
+footer{
+    background-color: rgb(9, 9, 129);
+    
+}
+
 #icon-menu{
     display: none;
 }
-.container-header h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-    color: orangered;
-    margin-bottom: 75px;
-}
+
 .logo{
     cursor: pointer;
     
-
 }
 
 
@@ -170,8 +176,8 @@ header{
     height: 250px;
     display: flex;
     align-items: center;
-    background-color: greenyellow;
-    color: white;
+    background-color: rgb(14, 14, 76);
+    
 }
 .banner-text{
     font-size: 15px;
@@ -186,7 +192,7 @@ header{
     margin-left: 90px;
 }
 .spotify{
-    margin: 10px 10px 10px 10px;
+    margin:auto
 }
 
 
@@ -228,9 +234,14 @@ header{
     border-radius: 10px;
     border: solid orange;
 }
-
-section{
-    margin-top: 120px;
+.carousel{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-item h5{
+    color: beige;
+    font-size: 40px;
 }
 
 .sedes-titulo{
@@ -252,14 +263,14 @@ section{
 /*  CONTACTO */
 
 .container-form{
-    background-color: lightblue;
+    background-color: rgb(7, 4, 48);
     margin-top: 100px;
     margin-left: 245px;
     margin-right: 245px;
     padding: 15px 15px 45px 45px;
     display: flex;
     justify-content: center;
-    border: solid lightblue;
+    border: solid black;
     border-radius: 10px;
 }
 .container-form:hover{
